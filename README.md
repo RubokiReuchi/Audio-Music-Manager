@@ -10,10 +10,12 @@ Sound design and music play an important role in the overall experience of moder
 * Foley Audio: Any sound or effect that the player create, is made to give feedback of what are you doing to the player. For example the jump sound.
 * Spot Music: Less frequent than others, used to create a sound with an specific origin. The playen can only listen this music if is near the origin. For example and NPC playing a piano.
 
-https://user-images.githubusercontent.com/79161175/160276089-d27d6301-d52e-45e8-aa62-3810fa544271.mp4
-https://user-images.githubusercontent.com/79161175/160276097-a180f19a-034a-405f-9e11-ad2bbb177199.mp4
+### Examples
+* Obtain an item: https://user-images.githubusercontent.com/79161175/160276089-d27d6301-d52e-45e8-aa62-3810fa544271.mp4
+* Walksteps: https://user-images.githubusercontent.com/79161175/160276097-a180f19a-034a-405f-9e11-ad2bbb177199.mp4
 
-
+## Every entity can potentially generate sound
+![](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/sound1.mp4)
 
 
 
