@@ -20,6 +20,7 @@ All static and dynamic entities can generate sound, someones by themselves and o
 ![Image](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/Imagen1.png)
 
 * Ones asign implement it in update:
+
 ![Image](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/Imagen2.png)
 
 ## Discard entities that are too far
@@ -40,8 +41,10 @@ Usually games use a playlist for background music instead of a single music. Tha
 * First I made an array to store the songs one behind the other, as well as some functions to make it more accessible.
 ![Image](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/Imagen6.png)
 * Secondly we need a function to check if we have to pass to the next sound or not. Is important to add a fade in and a fade out to make less visiable the song change.
+
 ![Image](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/Imagen7.png)
 * At last I create a clock of 30 seconds to swap the song after that amount of time. The clock work with frames so if our games runs at 60, we need to enter a 1800 delay.
+
 ![Image](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/Imagen8.png)
 
 ## Advices
