@@ -25,6 +25,7 @@ All static and dynamic entities can generate sound, someones by themselves and o
 
 ## Discard entities that are too far
 In the case of the spot sounds it's crucial to check if the player is close to the origin to know if is supposed to be listn or not.
+
 ![Image](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/Imagen3.png)
 
 If the player enter in range of the sound, the music plays but if the player leave the range the music will stop. In some games they go forward and increase the volume of the music for the closer the player is.
