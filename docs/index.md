@@ -17,6 +17,7 @@ Sound design and music play an important role in the overall experience of moder
 ## Every entity can potentially generate sound
 All static and dynamic entities can generate sound, someones by themselves and other only when an interaction happens. This sound usually are FX.
 * In that case is important to be clean and to asign each sound to his generator. Example the jump sound that player makes:
+
 ![Image](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/Imagen1.png?raw=true)
 
 * Ones asign implement it in update:
@@ -32,14 +33,17 @@ If the player enter in range of the sound, the music plays but if the player lea
 
 ## Check camera position to play the audio spatially
 Some games only produce sound if the player camera is near the music origin. That's a good improvement for games where the camera is not linked to the player, example League of Legends.
+
 ![Image](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/Imagen4.png?raw=true)
 
 To implement that feature is necesary to check if the origin is in the camera boudaries.
+
 ![Image](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/Imagen5.png?raw=true)
 
 ## Playlist with fading
 Usually games use a playlist for background music instead of a single music. That's not always the correct option, is necesary to consider some things like the type of situacion when is going to be played. SDL_Mixer don't have a default playlist option, so I create a few funtions to be able to use playlists in games.
 * First I made an array to store the songs one behind the other, as well as some functions to make it more accessible.
+
 ![Image](https://github.com/RubokiReuchi/Audio-Music-Manager/blob/main/wiki/Imagen6.png?raw=true)
 * Secondly we need a function to check if we have to pass to the next sound or not. Is important to add a fade in and a fade out to make less visiable the song change.
 
